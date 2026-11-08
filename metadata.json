@@ -1,6 +1,6 @@
 {
-  "name": "Villa Azul Caribe - Luxury Vacation Rental",
-  "description": "Landing page de lujo para Villa Azul Caribe en Puerto Plata, República Dominicana. Reservas directas, cotizador en vivo y enlace inteligente a WhatsApp.",
+  "name": "Villa Azul Caribe - Landing de reservas directas",
+  "description": "Landing de villa vacacional en Puerto Plata con cotizador en vivo y reserva por WhatsApp. Sitio estático, sin backend ni claves de API.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

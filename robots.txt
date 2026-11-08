@@ -1,0 +1,6 @@
+# Mientras config.demoMode sea true el sitio lleva <meta name="robots" content="noindex">.
+# Al publicar la versión real, quita ese meta.
+User-agent: *
+Allow: /
+
+Sitemap: https://villaazulcaribe.com/sitemap.xml

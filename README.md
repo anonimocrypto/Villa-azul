@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Villa Azul Caribe · landing (versión corregida)
 
-# Run and deploy your AI Studio app
+Sitio **estático** (sin backend, sin claves). Léete primero `AUDITORIA.md`.
 
-This contains everything you need to run your app locally.
+## Ejecutar
+```
+npm run dev      # sirve la carpeta en http://localhost:3000
+npm test         # 46 pruebas en Chromium (pip install playwright && playwright install chromium)
+```
 
-View your app in AI Studio: https://ai.studio/apps/8cae7899-56b2-4f48-bf63-61f4ba0139d6
+## Personalizar para otra villa
+Edita **solo** `assets/villa.config.js` (datos, precios, fotos, reseñas, FAQ, ES/EN) y, si hace falta, `assets/i18n.js` (textos de interfaz). Cambia también `<title>`, `canonical` y `og:*` en `index.html`.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Antes de publicar (checklist)
+- [ ] `demoMode:false`, quitar `<meta name="robots" content="noindex">`
+- [ ] Reemplazar todo lo marcado `// VERIFICAR` y el teléfono/email de ejemplo
+- [ ] Fotos reales + `og-image` propia
+- [ ] Reseñas y `rating` reales (o dejarlos vacíos / `null`)
+- [ ] Cargar `blockedRanges` desde el calendario real
+- [ ] Revisión legal de `terminos.html` y `privacidad.html`
+- [ ] Pegar analítica (eventos ya emitidos)
+- [ ] Tailwind compilado (`npm i && npm run build:css`, cambiar el `<script>` CDN por `<link href="assets/tailwind.css">`) y CSP en modo enforcing (`_headers`)
