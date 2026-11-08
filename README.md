@@ -5,6 +5,7 @@ Sitio **estático** (sin backend, sin claves). Léete primero `AUDITORIA.md`.
 ## Ejecutar
 ```
 npm run dev      # sirve la carpeta en http://localhost:3000
+npm run build    # copia el sitio a dist/ (comando de build en Vercel/Netlify; carpeta de salida: dist)
 npm test         # 46 pruebas en Chromium (pip install playwright && playwright install chromium)
 ```
 

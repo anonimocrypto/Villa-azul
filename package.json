@@ -5,6 +5,8 @@
   "description": "Sitio est\u00e1tico. Sin dependencias de runtime.",
   "scripts": {
     "dev": "npx --yes serve . -l 3000",
+    "build": "node build.mjs",
+    "preview": "npx --yes serve dist -l 3000",
     "test": "python3 tests/run-tests.py",
     "build:css": "tailwindcss -c tailwind.config.js -i src/input.css -o assets/tailwind.css --minify"
   },
