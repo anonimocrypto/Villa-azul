@@ -1,0 +1,1763 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Villa Azul Caribe · Villa de Lujo en Puerto Plata, República Dominicana</title>
+    <meta name="description" content="Exclusiva villa de lujo frente al mar en Puerto Plata, República Dominicana. 5 habitaciones, 5 baños, piscina infinity privada, chef gourmet y reservas directas con 10% de descuento por WhatsApp." />
+    <meta name="keywords" content="villa de lujo puerto plata, alquiler vacacional republica dominicana, luxury villa dominican republic, villa azul caribe, villa con chef puerto plata" />
+    <meta name="author" content="Villa Azul Caribe" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://villaazulcaribe.com" />
+    <meta property="og:title" content="Villa Azul Caribe · Villa de Lujo en Puerto Plata, RD" />
+    <meta property="og:description" content="Reserva directa sin intermediarios. 10 huéspedes, 5 suites, piscina infinity privada y chef personal a 5 min de la playa en Puerto Plata." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Villa Azul Caribe · Exclusiva Villa en Puerto Plata, RD" />
+    <meta name="twitter:description" content="Piscina privada, chef gourmet, 5 suites y vistas al Caribe. Reserva directa por WhatsApp y ahorra 10%." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Google Fonts: Playfair Display + Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS CDN with Custom Dark Luxury Configuration -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                bg: '#0a0a0c',
+                surface: '#141418',
+                surfaceHover: '#1c1c24',
+                border: '#24242e',
+                gold: '#d4af37',
+                goldLight: '#f3e5ab',
+                goldMuted: '#967c29',
+                turquoise: '#0ea5e9',
+                turquoiseGlow: '#38bdf8',
+                accent: '#06b6d4',
+                coral: '#f43f5e'
+              }
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'Georgia', 'serif'],
+              sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- GSAP & ScrollTrigger CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- Schema.org VacationRental Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VacationRental",
+      "name": "Villa Azul Caribe",
+      "description": "Exclusiva villa de lujo en Puerto Plata, República Dominicana. Capacidad para 10 huéspedes, 5 habitaciones, 5 baños, piscina privada infinity y chef gourmet.",
+      "image": [
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Costambar Luxury Enclave",
+        "addressLocality": "Puerto Plata",
+        "addressRegion": "Puerto Plata",
+        "postalCode": "57000",
+        "addressCountry": "DO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.8033,
+        "longitude": -70.6970
+      },
+      "priceRange": "$350 - $450 USD",
+      "numberOfRooms": 5,
+      "numberOfBathroomsTotal": 5,
+      "occupancy": {
+        "@type": "QuantitativeValue",
+        "maxValue": 10
+      },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Piscina Privada Infinity", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Chef Privado Disponible", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "WiFi Starlink de Alta Velocidad", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Aire Acondicionado Central", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Cerca de la Playa", "value": true }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.98",
+        "reviewCount": "68",
+        "bestRating": "5"
+      }
+    }
+    </script>
+
+    <style>
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a0c;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #24242e;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #3f3f50;
+      }
+
+      .glass-card {
+        background: rgba(20, 20, 24, 0.75);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .glass-card-hover {
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .glass-card-hover:hover {
+        border-color: rgba(212, 175, 55, 0.35);
+        transform: translateY(-3px);
+        box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.8), 0 0 20px -5px rgba(212, 175, 55, 0.15);
+      }
+      .gold-gradient-text {
+        background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #aa820a 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .turquoise-gradient-text {
+        background: linear-gradient(135deg, #a5f3fc 0%, #06b6d4 50%, #0891b2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .click-ripple {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        border: 2px solid currentColor;
+        pointer-events: none;
+        top: -4px;
+        left: -4px;
+        opacity: 0;
+        transform: scale(0.2);
+      }
+
+      @keyframes wa-pulse {
+        0%, 100% {
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+        }
+        50% {
+          box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);
+        }
+      }
+      .wa-beacon {
+        animation: wa-pulse 2.2s infinite;
+      }
+    </style>
+  </head>
+
+  <body class="bg-[#0a0a0c] text-neutral-100 font-sans selection:bg-[#d4af37]/30 selection:text-white antialiased overflow-x-hidden">
+
+    <!-- ===================================================================
+         INTRO SCREEN OVERLAY (EXACTLY 5 SECONDS FIGMA COLLABORATIVE CURSORS)
+         =================================================================== -->
+    <div id="intro-overlay" class="fixed inset-0 z-[100] bg-[#0a0a0c] overflow-hidden pointer-events-auto flex items-center justify-center">
+      
+      <!-- Skip button in the corner -->
+      <button id="skip-intro-btn" class="absolute top-6 right-6 z-[110] px-4 py-2 text-xs uppercase tracking-wider font-semibold text-neutral-400 hover:text-white bg-neutral-900/80 hover:bg-neutral-800 border border-neutral-700/60 rounded-full backdrop-blur transition-all duration-200 cursor-pointer">
+        Saltar intro <span class="ml-1 text-neutral-500">ESC</span>
+      </button>
+
+      <!-- Center subtle loading brand placeholder during building -->
+      <div id="intro-loader-badge" class="text-center opacity-60 pointer-events-none transition-opacity duration-500">
+        <p class="font-serif italic text-sm tracking-widest text-[#d4af37] uppercase">Construyendo tu experiencia en vivo</p>
+        <p class="text-xs text-neutral-500 mt-1 font-mono tracking-tight">Villa Azul Caribe · Puerto Plata</p>
+      </div>
+
+      <!-- 4 SVG COLLABORATIVE CURSORS -->
+      <!-- Cursor 1: Diseño (Turquesa) -->
+      <div id="cursor-design" class="intro-cursor absolute top-0 left-0 pointer-events-none z-50 flex items-start gap-1 text-[#06b6d4]" style="transform: translate(-100px, -100px);">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="drop-shadow-xl">
+          <path d="M5.5 3.21a.5.5 0 0 1 .77-.42l13.56 8.52a.5.5 0 0 1-.16.92l-5.69 1.42a.5.5 0 0 0-.36.36l-1.42 5.69a.5.5 0 0 1-.92.16L3.21 6.27a.5.5 0 0 1 .42-.77z" fill="#06b6d4" stroke="#ffffff" stroke-width="1.2"/>
+        </svg>
+        <span class="px-2 py-0.5 rounded text-[11px] font-semibold text-black shadow-lg whitespace-nowrap" style="background:#06b6d4;">Diseño</span>
+        <span id="ripple-design" class="click-ripple text-[#06b6d4]"></span>
+      </div>
+
+      <!-- Cursor 2: Fotos (Dorado) -->
+      <div id="cursor-photos" class="intro-cursor absolute top-0 left-0 pointer-events-none z-50 flex items-start gap-1 text-[#d4af37]" style="transform: translate(-100px, -100px);">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="drop-shadow-xl">
+          <path d="M5.5 3.21a.5.5 0 0 1 .77-.42l13.56 8.52a.5.5 0 0 1-.16.92l-5.69 1.42a.5.5 0 0 0-.36.36l-1.42 5.69a.5.5 0 0 1-.92.16L3.21 6.27a.5.5 0 0 1 .42-.77z" fill="#d4af37" stroke="#ffffff" stroke-width="1.2"/>
+        </svg>
+        <span class="px-2 py-0.5 rounded text-[11px] font-semibold text-black shadow-lg whitespace-nowrap" style="background:#d4af37;">Fotos</span>
+        <span id="ripple-photos" class="click-ripple text-[#d4af37]"></span>
+      </div>
+
+      <!-- Cursor 3: Textos (Blanco) -->
+      <div id="cursor-texts" class="intro-cursor absolute top-0 left-0 pointer-events-none z-50 flex items-start gap-1 text-white" style="transform: translate(-100px, -100px);">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="drop-shadow-xl">
+          <path d="M5.5 3.21a.5.5 0 0 1 .77-.42l13.56 8.52a.5.5 0 0 1-.16.92l-5.69 1.42a.5.5 0 0 0-.36.36l-1.42 5.69a.5.5 0 0 1-.92.16L3.21 6.27a.5.5 0 0 1 .42-.77z" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+        </svg>
+        <span class="px-2 py-0.5 rounded text-[11px] font-semibold text-black shadow-lg whitespace-nowrap bg-white">Textos</span>
+        <span id="ripple-texts" class="click-ripple text-white"></span>
+      </div>
+
+      <!-- Cursor 4: Reservas (Coral) -->
+      <div id="cursor-booking" class="intro-cursor absolute top-0 left-0 pointer-events-none z-50 flex items-start gap-1 text-[#f43f5e]" style="transform: translate(-100px, -100px);">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="drop-shadow-xl">
+          <path d="M5.5 3.21a.5.5 0 0 1 .77-.42l13.56 8.52a.5.5 0 0 1-.16.92l-5.69 1.42a.5.5 0 0 0-.36.36l-1.42 5.69a.5.5 0 0 1-.92.16L3.21 6.27a.5.5 0 0 1 .42-.77z" fill="#f43f5e" stroke="#ffffff" stroke-width="1.2"/>
+        </svg>
+        <span class="px-2 py-0.5 rounded text-[11px] font-semibold text-white shadow-lg whitespace-nowrap" style="background:#f43f5e;">Reservas</span>
+        <span id="ripple-booking" class="click-ripple text-[#f43f5e]"></span>
+      </div>
+    </div>
+
+
+    <!-- ===================================================================
+         1. FIXED NAVIGATION BAR (3-ZONE LUXURY TOP BAR CONTRACT)
+         =================================================================== -->
+    <header id="site-header" class="fixed top-0 left-0 right-0 z-40 bg-[#0a0a0c]/85 backdrop-blur-md border-b border-neutral-800/80 transition-all duration-300">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-8">
+        
+        <!-- Zone 1: Single Brand Wordmark -->
+        <a href="#hero" class="text-xl sm:text-2xl font-serif tracking-tight text-white flex items-center gap-2 whitespace-nowrap shrink-0 group">
+          <span class="w-8 h-8 rounded-full bg-gradient-to-tr from-[#d4af37] to-[#06b6d4] flex items-center justify-center text-black font-bold text-sm shadow-md group-hover:scale-105 transition-transform">V</span>
+          <span>Villa Azul <span class="gold-gradient-text italic">Caribe</span></span>
+        </a>
+
+        <!-- Zone 2: Navigation Links (Clean Single-Line, Unboxed) -->
+        <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-neutral-300">
+          <a href="#highlights" class="hover:text-[#d4af37] transition-colors whitespace-nowrap shrink-0" data-i18n="nav_amenities">Servicios</a>
+          <a href="#galeria" class="hover:text-[#d4af37] transition-colors whitespace-nowrap shrink-0" data-i18n="nav_gallery">Galería</a>
+          <a href="#experiencias" class="hover:text-[#d4af37] transition-colors whitespace-nowrap shrink-0" data-i18n="nav_experiences">Experiencias</a>
+          <a href="#ubicacion" class="hover:text-[#d4af37] transition-colors whitespace-nowrap shrink-0" data-i18n="nav_location">Ubicación</a>
+          <a href="#faq" class="hover:text-[#d4af37] transition-colors whitespace-nowrap shrink-0" data-i18n="nav_faq">Preguntas</a>
+        </nav>
+
+        <!-- Zone 3: Language Selector & Primary Booking Action -->
+        <div class="flex items-center gap-3 shrink-0">
+          <!-- Language Selector -->
+          <div class="flex items-center bg-neutral-900 border border-neutral-800 rounded-lg p-0.5 text-xs font-semibold">
+            <button id="lang-es-btn" onclick="setLanguage('es')" class="px-2.5 py-1 rounded-md transition-colors bg-[#d4af37] text-black cursor-pointer">ES</button>
+            <button id="lang-en-btn" onclick="setLanguage('en')" class="px-2.5 py-1 rounded-md transition-colors text-neutral-400 hover:text-white cursor-pointer">EN</button>
+          </div>
+
+          <!-- Primary Direct Booking Button -->
+          <a href="#booking-section" class="hidden sm:inline-flex items-center justify-center px-4 py-2 text-xs font-semibold uppercase tracking-wider text-black bg-[#d4af37] hover:bg-[#e6c148] rounded-lg shadow-lg hover:shadow-[#d4af37]/20 transition-all whitespace-nowrap shrink-0" data-i18n="btn_book_now">
+            Reservar Ahora
+          </a>
+
+          <!-- Mobile menu toggle button -->
+          <button id="mobile-menu-btn" class="md:hidden p-2 text-neutral-400 hover:text-white rounded-lg border border-neutral-800 cursor-pointer" aria-label="Abrir menú">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile dropdown menu -->
+      <div id="mobile-menu" class="hidden md:hidden bg-[#141418] border-b border-neutral-800 px-6 py-4 space-y-3">
+        <a href="#highlights" onclick="closeMobileMenu()" class="block text-sm text-neutral-300 hover:text-[#d4af37]" data-i18n="nav_amenities">Servicios</a>
+        <a href="#galeria" onclick="closeMobileMenu()" class="block text-sm text-neutral-300 hover:text-[#d4af37]" data-i18n="nav_gallery">Galería</a>
+        <a href="#experiencias" onclick="closeMobileMenu()" class="block text-sm text-neutral-300 hover:text-[#d4af37]" data-i18n="nav_experiences">Experiencias</a>
+        <a href="#ubicacion" onclick="closeMobileMenu()" class="block text-sm text-neutral-300 hover:text-[#d4af37]" data-i18n="nav_location">Ubicación</a>
+        <a href="#faq" onclick="closeMobileMenu()" class="block text-sm text-neutral-300 hover:text-[#d4af37]" data-i18n="nav_faq">Preguntas</a>
+        <a href="#booking-section" onclick="closeMobileMenu()" class="block text-center py-2 text-xs font-semibold uppercase tracking-wider text-black bg-[#d4af37] rounded-lg mt-2" data-i18n="btn_book_now">Reservar Ahora</a>
+      </div>
+    </header>
+
+
+    <!-- ===================================================================
+         2. HERO SECTION (FULL SCREEN LUXURY RESORT AT DUSK)
+         =================================================================== -->
+    <section id="hero" class="relative min-h-screen flex items-center justify-center pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      
+      <!-- High-res Unsplash Hero Background with Subtle Ambient Zoom & Gradient Scrim -->
+      <div id="hero-media-wrapper" class="absolute inset-0 z-0">
+        <img 
+          id="hero-bg-img" 
+          src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=2000&q=85" 
+          alt="Villa Azul Caribe Infinity Pool y arquitectura al atardecer en Puerto Plata" 
+          class="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
+          loading="eager"
+        />
+        <!-- Measured Scrim: 4.5:1 contrast guarantee with luxury subtle vignetting -->
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0c] via-[#0a0a0c]/70 to-[#0a0a0c]/40"></div>
+        <div class="absolute inset-0 bg-radial from-transparent via-[#0a0a0c]/30 to-[#0a0a0c]/80"></div>
+      </div>
+
+      <!-- Hero Main Content Box -->
+      <div class="relative z-10 max-w-5xl mx-auto text-center flex flex-col items-center">
+        
+        <!-- Clean unboxed metadata kicker with typographic separator -->
+        <div id="hero-kicker" class="flex items-center gap-2 text-xs font-medium tracking-widest uppercase text-neutral-400 mb-4">
+          <span class="text-[#06b6d4]">Puerto Plata, República Dominicana</span>
+          <span aria-hidden="true" class="text-neutral-600">·</span>
+          <span>Costambar Enclave</span>
+          <span aria-hidden="true" class="text-neutral-600">·</span>
+          <span class="text-[#d4af37]">Solo Reservas Directas</span>
+        </div>
+
+        <!-- Headline with balanced typography -->
+        <h1 id="hero-title" class="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal tracking-tight text-white leading-tight sm:leading-tight mb-5 max-w-4xl text-balance">
+          Tu santuario privado frente al Atlántico con <span class="gold-gradient-text italic font-normal">chef y piscina infinity</span>
+        </h1>
+
+        <!-- Subtitle with crisp benefit -->
+        <p id="hero-subtitle" class="text-base sm:text-lg text-neutral-300 max-w-2xl leading-relaxed mb-8">
+          Diseñada para desconectar con absoluta privacidad. 5 suites de ensueño, servicio gastronómico personalizado y la brisa del Caribe a 5 minutos de la playa.
+        </p>
+
+        <!-- CTAs: Ver Disponibilidad & WhatsApp directo -->
+        <div id="hero-ctas" class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+          <a href="#booking-section" class="w-full sm:w-auto px-7 py-3.5 text-sm font-semibold tracking-wide text-black bg-[#d4af37] hover:bg-[#e6c148] rounded-xl shadow-xl shadow-[#d4af37]/25 hover:shadow-[#d4af37]/40 transition-all text-center" data-i18n="hero_cta_check">
+            Ver Disponibilidad y Cotizar
+          </a>
+          <button onclick="launchFloatingWhatsApp()" class="w-full sm:w-auto px-6 py-3.5 text-sm font-medium text-white hover:text-[#25D366] bg-neutral-900/80 hover:bg-neutral-800/90 border border-neutral-700/70 rounded-xl backdrop-blur transition-all flex items-center justify-center gap-2 cursor-pointer">
+            <svg class="w-4 h-4 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"/>
+            </svg>
+            <span data-i18n="hero_cta_wa">Consultar por WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Trust stats bar -->
+        <div id="hero-trust-bar" class="mt-12 pt-6 border-t border-neutral-800/80 w-full max-w-3xl flex flex-wrap items-center justify-around gap-6 text-neutral-400 text-xs">
+          <div class="flex items-center gap-2">
+            <span class="text-[#d4af37] font-semibold text-sm">10</span>
+            <span data-i18n="stat_guests">Huéspedes máx.</span>
+          </div>
+          <span aria-hidden="true" class="text-neutral-700">|</span>
+          <div class="flex items-center gap-2">
+            <span class="text-[#d4af37] font-semibold text-sm">5</span>
+            <span data-i18n="stat_rooms">Suites con baño</span>
+          </div>
+          <span aria-hidden="true" class="text-neutral-700">|</span>
+          <div class="flex items-center gap-2">
+            <span class="text-[#d4af37] font-semibold text-sm">4.98 ★</span>
+            <span data-i18n="stat_rating">68 reseñas verificadas</span>
+          </div>
+          <span aria-hidden="true" class="text-neutral-700">|</span>
+          <div class="flex items-center gap-2">
+            <span class="text-[#06b6d4] font-semibold text-sm">-10%</span>
+            <span data-i18n="stat_discount">Ahorro reserva directa</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         3. FAST BOOKING BAR & REAL-TIME QUOTE ENGINE
+         =================================================================== -->
+    <section id="booking-section" class="relative z-30 -mt-10 max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="glass-card rounded-2xl p-6 sm:p-8 shadow-2xl border border-neutral-700/60">
+        
+        <div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-6">
+          
+          <!-- Date & Guest Inputs Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 flex-1">
+            
+            <!-- Check-in input -->
+            <div class="flex flex-col gap-1.5">
+              <label for="checkin-date" class="text-xs font-semibold uppercase tracking-wider text-neutral-400 flex items-center gap-1.5">
+                <svg class="w-3.5 h-3.5 text-[#d4af37]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                <span data-i18n="label_checkin">Llegada (Check-in)</span>
+              </label>
+              <input 
+                type="date" 
+                id="checkin-date" 
+                class="w-full bg-neutral-900/90 border border-neutral-700 focus:border-[#d4af37] focus:ring-1 focus:ring-[#d4af37] rounded-xl px-3.5 py-2.5 text-sm text-white outline-none transition-colors"
+              />
+            </div>
+
+            <!-- Check-out input -->
+            <div class="flex flex-col gap-1.5">
+              <label for="checkout-date" class="text-xs font-semibold uppercase tracking-wider text-neutral-400 flex items-center gap-1.5">
+                <svg class="w-3.5 h-3.5 text-[#d4af37]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                <span data-i18n="label_checkout">Salida (Check-out)</span>
+              </label>
+              <input 
+                type="date" 
+                id="checkout-date" 
+                class="w-full bg-neutral-900/90 border border-neutral-700 focus:border-[#d4af37] focus:ring-1 focus:ring-[#d4af37] rounded-xl px-3.5 py-2.5 text-sm text-white outline-none transition-colors"
+              />
+            </div>
+
+            <!-- Guests input -->
+            <div class="flex flex-col gap-1.5">
+              <label for="guests-count" class="text-xs font-semibold uppercase tracking-wider text-neutral-400 flex items-center gap-1.5">
+                <svg class="w-3.5 h-3.5 text-[#06b6d4]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                <span data-i18n="label_guests">Huéspedes</span>
+              </label>
+              <select 
+                id="guests-count" 
+                class="w-full bg-neutral-900/90 border border-neutral-700 focus:border-[#d4af37] focus:ring-1 focus:ring-[#d4af37] rounded-xl px-3.5 py-2.5 text-sm text-white outline-none transition-colors"
+              >
+                <option value="1">1 Huésped</option>
+                <option value="2">2 Huéspedes</option>
+                <option value="3">3 Huéspedes</option>
+                <option value="4">4 Huéspedes</option>
+                <option value="5">5 Huéspedes</option>
+                <option value="6">6 Huéspedes</option>
+                <option value="7">7 Huéspedes</option>
+                <option value="8">8 Huéspedes</option>
+                <option value="9">9 Huéspedes</option>
+                <option value="10" selected>10 Huéspedes (Capacidad total)</option>
+              </select>
+            </div>
+
+          </div>
+
+          <!-- Live Quote Summary Box & WhatsApp Action -->
+          <div class="lg:w-80 flex flex-col justify-between p-4 rounded-xl bg-neutral-900/80 border border-neutral-800">
+            
+            <div class="flex items-baseline justify-between mb-1">
+              <span class="text-xs text-neutral-400 font-medium" data-i18n="quote_total_label">Cotización Directa:</span>
+              <span id="quote-nights-pill" class="text-[11px] font-mono text-[#06b6d4] bg-[#06b6d4]/10 px-2 py-0.5 rounded">4 noches</span>
+            </div>
+
+            <div class="flex items-baseline gap-2 mb-2">
+              <span id="quote-total-display" class="text-2xl font-bold font-mono text-white tabular-nums">$1,380 USD</span>
+              <span id="quote-discount-tag" class="text-xs font-semibold text-emerald-400 font-mono">-10% Directo</span>
+            </div>
+
+            <p id="quote-detail-subtext" class="text-[11px] text-neutral-400 leading-snug mb-3">
+              Incluye limpieza ($120) y tasa sin comisión de plataformas.
+            </p>
+
+            <button 
+              id="quote-book-whatsapp-btn"
+              onclick="launchBookingWhatsApp()"
+              class="w-full py-2.5 px-4 text-xs font-bold uppercase tracking-wider text-black bg-[#25D366] hover:bg-[#20ba5a] rounded-lg shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer"
+            >
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"/></svg>
+              <span data-i18n="btn_book_wa">Reservar por WhatsApp</span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         4. VILLA HIGHLIGHTS (6 PREMIUM SERVICE AMENITIES)
+         =================================================================== -->
+    <section id="highlights" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <p class="text-xs uppercase tracking-widest text-[#d4af37] font-semibold mb-2" data-i18n="highlights_pre">Exclusividad & Confort</p>
+        <h2 class="font-serif text-3xl sm:text-4xl text-white font-normal" data-i18n="highlights_title">
+          Cada detalle concebido para una estancia inolvidable
+        </h2>
+        <p class="text-sm text-neutral-400 mt-3" data-i18n="highlights_subtitle">
+          Disfruta de la libertad de una residencia privada con los estándares de un resort boutique 5 estrellas en Puerto Plata.
+        </p>
+      </div>
+
+      <!-- 6 Highlights Grid with Lucide SVGs -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- 1. Capacidad -->
+        <div class="highlight-card glass-card p-7 rounded-2xl glass-card-hover flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-neutral-900 border border-neutral-700/80 flex items-center justify-center text-[#d4af37] mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+            </div>
+            <h3 class="text-lg font-serif text-white mb-2" data-i18n="hl_guests_title">10 Huéspedes / 5 Suites</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed" data-i18n="hl_guests_desc">
+              5 dormitorios master y junior con camas king y queen de máxima comodidad, ropa de cama de algodón egipcio y 5 baños completos en suite.
+            </p>
+          </div>
+          <span class="text-[11px] font-mono text-neutral-500 mt-4 block">100% privacidad</span>
+        </div>
+
+        <!-- 2. Piscina Infinity -->
+        <div class="highlight-card glass-card p-7 rounded-2xl glass-card-hover flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-neutral-900 border border-neutral-700/80 flex items-center justify-center text-[#06b6d4] mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+            </div>
+            <h3 class="text-lg font-serif text-white mb-2" data-i18n="hl_pool_title">Piscina Privada Infinity</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed" data-i18n="hl_pool_desc">
+              Piscina de borde infinito con vistas abiertas, iluminación nocturna subacuática cálida, tumbonas solárium y área lounge exterior.
+            </p>
+          </div>
+          <span class="text-[11px] font-mono text-neutral-500 mt-4 block">Uso 24 horas</span>
+        </div>
+
+        <!-- 3. A 5 min de la Playa -->
+        <div class="highlight-card glass-card p-7 rounded-2xl glass-card-hover flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-neutral-900 border border-neutral-700/80 flex items-center justify-center text-[#d4af37] mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"></path></svg>
+            </div>
+            <h3 class="text-lg font-serif text-white mb-2" data-i18n="hl_beach_title">A 5 min de la Playa</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed" data-i18n="hl_beach_desc">
+              Ubicación privilegiada en enclave privado de Puerto Plata, a pasos de la arena dorada, aguas tranquilas y arrecifes para hacer snorkel.
+            </p>
+          </div>
+          <span class="text-[11px] font-mono text-neutral-500 mt-4 block">Costa Atlántica</span>
+        </div>
+
+        <!-- 4. Chef Privado -->
+        <div class="highlight-card glass-card p-7 rounded-2xl glass-card-hover flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-neutral-900 border border-neutral-700/80 flex items-center justify-center text-[#d4af37] mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+            </div>
+            <h3 class="text-lg font-serif text-white mb-2" data-i18n="hl_chef_title">Servicio de Chef Personal</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed" data-i18n="hl_chef_desc">
+              Cocina caribeña contemporánea y mariscos frescos de la lonja. Menús a tu medida servidos en la terraza o en el comedor gourmet.
+            </p>
+          </div>
+          <span class="text-[11px] font-mono text-neutral-500 mt-4 block">Disponible a solicitud</span>
+        </div>
+
+        <!-- 5. WiFi Starlink -->
+        <div class="highlight-card glass-card p-7 rounded-2xl glass-card-hover flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-neutral-900 border border-neutral-700/80 flex items-center justify-center text-[#06b6d4] mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"></path></svg>
+            </div>
+            <h3 class="text-lg font-serif text-white mb-2" data-i18n="hl_wifi_title">WiFi Starlink de Alta Velocidad</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed" data-i18n="hl_wifi_desc">
+              Conexión satelital de 300+ Mbps de ultra baja latencia. Cobertura completa en jardines, piscina y habitaciones para teletrabajo y streaming 4K.
+            </p>
+          </div>
+          <span class="text-[11px] font-mono text-neutral-500 mt-4 block">300 Mbps simétricos</span>
+        </div>
+
+        <!-- 6. Aire Acondicionado Central -->
+        <div class="highlight-card glass-card p-7 rounded-2xl glass-card-hover flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-neutral-900 border border-neutral-700/80 flex items-center justify-center text-[#d4af37] mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+            </div>
+            <h3 class="text-lg font-serif text-white mb-2" data-i18n="hl_ac_title">Climatización Central Inverter</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed" data-i18n="hl_ac_desc">
+              Control independiente en cada estancia con tecnología silenciosa, ventiladores de techo tropicales y generador eléctrico de emergencia 24/7.
+            </p>
+          </div>
+          <span class="text-[11px] font-mono text-neutral-500 mt-4 block">Respaldo eléctrico total</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================================
+         5. GALLERY & LIGHTBOX (CATEGORY TABS: PISCINA, HABITACIONES, ETC.)
+         =================================================================== -->
+    <section id="galeria" class="py-24 bg-[#141418]/50 border-y border-neutral-800/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+          <div>
+            <p class="text-xs uppercase tracking-widest text-[#d4af37] font-semibold mb-2" data-i18n="gallery_pre">Fotografía & Espacios</p>
+            <h2 class="font-serif text-3xl sm:text-4xl text-white font-normal" data-i18n="gallery_title">Galería de la Residencia</h2>
+          </div>
+
+          <!-- Category Filter Tabs -->
+          <div class="flex flex-wrap items-center gap-1.5 p-1 bg-neutral-900 border border-neutral-800 rounded-xl text-xs font-medium">
+            <button onclick="filterGallery('todas')" class="gallery-tab-btn active px-3.5 py-1.5 rounded-lg bg-[#d4af37] text-black font-semibold transition-all cursor-pointer" data-tab="todas" data-i18n="tab_all">Todas</button>
+            <button onclick="filterGallery('piscina')" class="gallery-tab-btn px-3.5 py-1.5 rounded-lg text-neutral-400 hover:text-white transition-all cursor-pointer" data-tab="piscina" data-i18n="tab_pool">Piscina & Terraza</button>
+            <button onclick="filterGallery('habitaciones')" class="gallery-tab-btn px-3.5 py-1.5 rounded-lg text-neutral-400 hover:text-white transition-all cursor-pointer" data-tab="habitaciones" data-i18n="tab_rooms">Habitaciones</button>
+            <button onclick="filterGallery('cocina')" class="gallery-tab-btn px-3.5 py-1.5 rounded-lg text-neutral-400 hover:text-white transition-all cursor-pointer" data-tab="cocina" data-i18n="tab_kitchen">Cocina & Comedor</button>
+            <button onclick="filterGallery('exteriores')" class="gallery-tab-btn px-3.5 py-1.5 rounded-lg text-neutral-400 hover:text-white transition-all cursor-pointer" data-tab="exteriores" data-i18n="tab_outdoor">Exteriores</button>
+          </div>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Dynamically populated from VILLA_CONFIG.gallery -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LIGHTBOX MODAL -->
+    <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/95 backdrop-blur-md hidden flex items-center justify-center p-4 sm:p-8" onclick="handleLightboxClick(event)">
+      <!-- Close button -->
+      <button onclick="closeLightbox()" class="absolute top-6 right-6 z-10 p-3 text-neutral-400 hover:text-white rounded-full bg-neutral-900/80 border border-neutral-700 transition-colors cursor-pointer" aria-label="Cerrar">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+
+      <!-- Previous button -->
+      <button onclick="prevLightboxImage(event)" class="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 p-3 text-white hover:text-[#d4af37] bg-neutral-900/80 hover:bg-neutral-800 border border-neutral-700 rounded-full transition-all cursor-pointer" aria-label="Anterior">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+      </button>
+
+      <!-- Next button -->
+      <button onclick="nextLightboxImage(event)" class="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 p-3 text-white hover:text-[#d4af37] bg-neutral-900/80 hover:bg-neutral-800 border border-neutral-700 rounded-full transition-all cursor-pointer" aria-label="Siguiente">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+      </button>
+
+      <!-- Image container -->
+      <div class="max-w-5xl max-h-[85vh] flex flex-col items-center">
+        <img id="lightbox-img" src="" alt="Villa Azul Caribe" class="max-h-[75vh] w-auto max-w-full rounded-xl object-contain shadow-2xl transition-opacity duration-300" />
+        <div class="flex items-center justify-between w-full mt-4 text-xs text-neutral-400 px-2">
+          <span id="lightbox-caption" class="text-white font-medium text-sm"></span>
+          <span id="lightbox-counter" class="font-mono text-neutral-400"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ===================================================================
+         6. EXPERIENCES & EXTRA SERVICES (INTERACTIVE ADD TO QUOTE)
+         =================================================================== -->
+    <section id="experiencias" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <p class="text-xs uppercase tracking-widest text-[#06b6d4] font-semibold mb-2" data-i18n="exp_pre">Servicios Adicionales Personalizados</p>
+        <h2 class="font-serif text-3xl sm:text-4xl text-white font-normal" data-i18n="exp_title">
+          Eleva tu estancia con experiencias a medida
+        </h2>
+        <p class="text-sm text-neutral-400 mt-3" data-i18n="exp_subtitle">
+          Servicios exclusivos de conserjería disponibles bajo petición para complementar tu estancia.
+        </p>
+      </div>
+
+      <!-- 4 Experiences Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="experiences-grid">
+        <!-- Injected via JavaScript from VILLA_CONFIG.experiences -->
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- ===================================================================
+         8. SPECIAL OFFER BANNER (10% OFF DIRECT & URGENCY)
+         =================================================================== -->
+    <section class="py-20 max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="relative overflow-hidden rounded-3xl p-8 sm:p-12 border border-[#d4af37]/30 bg-gradient-to-r from-neutral-900 via-[#18181f] to-neutral-900 shadow-2xl">
+        
+        <!-- Subtle golden glow sphere in background -->
+        <div class="absolute -top-24 -right-24 w-80 h-80 rounded-full bg-[#d4af37]/10 blur-3xl pointer-events-none"></div>
+
+        <div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+          
+          <div class="max-w-2xl">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/20 text-xs font-semibold text-rose-400 mb-4">
+              <span>●</span>
+              <span data-i18n="offer_urgency">Alta demanda: Solo quedan 2 fechas libres en diciembre</span>
+            </div>
+
+            <h2 class="font-serif text-2xl sm:text-4xl text-white font-normal leading-tight" data-i18n="offer_title">
+              Reserva directa con nosotros y <span class="gold-gradient-text italic">ahorra el 10%</span> sin comisiones
+            </h2>
+
+            <p class="text-sm text-neutral-300 mt-3 leading-relaxed" data-i18n="offer_desc">
+              Al reservar directamente por WhatsApp evitas los cargos de servicio del 15% al 20% de plataformas intermediarias. Además, recibes de cortesía un cóctel de bienvenida caribeño preparado por nuestro chef y check-in prioritario.
+            </p>
+
+            <ul class="mt-4 space-y-1.5 text-xs text-neutral-400">
+              <li class="flex items-center gap-2">
+                <span class="text-[#d4af37]">✓</span> Mejor tarifa garantizada por escrito
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-[#d4af37]">✓</span> Asistencia personalizada de concierge antes y durante tu viaje
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-[#d4af37]">✓</span> Política de cancelación flexible de 30 días
+              </li>
+            </ul>
+          </div>
+
+          <div class="shrink-0 flex flex-col gap-3 sm:w-72">
+            <button 
+              onclick="launchDirectDiscountWhatsApp()"
+              class="w-full py-4 px-6 text-xs font-bold uppercase tracking-wider text-black bg-[#d4af37] hover:bg-[#e6c148] rounded-xl shadow-xl shadow-[#d4af37]/25 transition-all text-center flex items-center justify-center gap-2 cursor-pointer"
+            >
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"/></svg>
+              <span data-i18n="btn_claim_offer">Reclamar 10% por WhatsApp</span>
+            </button>
+            <span class="text-[11px] text-center text-neutral-400">Respuesta promedio en menos de 15 minutos</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         9. GUEST REVIEWS (5 STARS & VERIFIED TESTIMONIALS)
+         =================================================================== -->
+    <section class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <p class="text-xs uppercase tracking-widest text-[#d4af37] font-semibold mb-2" data-i18n="reviews_pre">Experiencias Reales</p>
+        <h2 class="font-serif text-3xl sm:text-4xl text-white font-normal" data-i18n="reviews_title">
+          Lo que dicen nuestros distinguidos huéspedes
+        </h2>
+        <div class="flex items-center justify-center gap-2 mt-3 text-sm text-neutral-300">
+          <span class="text-[#d4af37] text-base">★★★★★</span>
+          <span class="font-bold">4.98 de 5 estrellas</span>
+          <span class="text-neutral-500">·</span>
+          <span class="text-neutral-400">Más de 65 estancias verificadas</span>
+        </div>
+      </div>
+
+      <!-- 3 Reviews Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="reviews-grid">
+        <!-- Rendered via JavaScript from VILLA_CONFIG.reviews -->
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================================
+         10. LOCATION & EMBEDDED MAP & DISTANCES
+         =================================================================== -->
+    <section id="ubicacion" class="py-24 bg-[#141418]/50 border-y border-neutral-800/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <div class="lg:col-span-5">
+            <p class="text-xs uppercase tracking-widest text-[#06b6d4] font-semibold mb-2" data-i18n="loc_pre">Costa Norte Dominicana</p>
+            <h2 class="font-serif text-3xl sm:text-4xl text-white font-normal mb-4" data-i18n="loc_title">
+              Enclave Privado en Puerto Plata
+            </h2>
+            <p class="text-sm text-neutral-300 leading-relaxed mb-6" data-i18n="loc_desc">
+              Villa Azul Caribe goza de una ubicación inmejorable: privacidad absoluta en una comunidad residencial vigilada con seguridad 24 horas, brisas constantes y proximidad inmediata a las playas más tranquilas y exclusivas de la costa norte.
+            </p>
+
+            <!-- Distances List with Clean Typography -->
+            <div class="space-y-3 border-t border-neutral-800 pt-5 text-xs">
+              <div class="flex items-center justify-between py-1 border-b border-neutral-800/60">
+                <span class="text-neutral-300 font-medium flex items-center gap-2">
+                  <span class="text-[#06b6d4]">🌊</span> Playa Dorada / Costambar
+                </span>
+                <span class="font-mono text-neutral-400">5 min (a pie)</span>
+              </div>
+              <div class="flex items-center justify-between py-1 border-b border-neutral-800/60">
+                <span class="text-neutral-300 font-medium flex items-center gap-2">
+                  <span class="text-[#d4af37]">✈️</span> Aeropuerto Puerto Plata (POP)
+                </span>
+                <span class="font-mono text-neutral-400">20 min en auto</span>
+              </div>
+              <div class="flex items-center justify-between py-1 border-b border-neutral-800/60">
+                <span class="text-neutral-300 font-medium flex items-center gap-2">
+                  <span class="text-[#d4af37]">✈️</span> Aeropuerto Cibao Santiago (STI)
+                </span>
+                <span class="font-mono text-neutral-400">65 min en auto</span>
+              </div>
+              <div class="flex items-center justify-between py-1 border-b border-neutral-800/60">
+                <span class="text-neutral-300 font-medium flex items-center gap-2">
+                  <span class="text-[#06b6d4]">⛳</span> Campo de Golf Playa Dorada (Robert Trent Jones)
+                </span>
+                <span class="font-mono text-neutral-400">8 min en auto</span>
+              </div>
+              <div class="flex items-center justify-between py-1">
+                <span class="text-neutral-300 font-medium flex items-center gap-2">
+                  <span class="text-[#d4af37]">🏛️</span> Centro Histórico & Teleférico
+                </span>
+                <span class="font-mono text-neutral-400">12 min en auto</span>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <a 
+                href="https://maps.google.com/?q=Puerto+Plata+Dominican+Republic" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#d4af37] hover:underline"
+              >
+                <span>Abrir en Google Maps</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Embedded Map with Dark Theming Filter -->
+          <div class="lg:col-span-7 h-96 rounded-2xl overflow-hidden border border-neutral-800 shadow-2xl relative">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30089.475471974716!2d-70.72089473041355!3d19.80332800539116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1dd755c0c9d7d%3A0x6b642a8b9f1d044!2sPuerto%20Plata%2C%20Dominican%20Republic!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus" 
+              class="w-full h-full border-0 filter invert-[90%] hue-rotate-180 contrast-[88%]" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Mapa de ubicación en Puerto Plata"
+            ></iframe>
+            <!-- Pin label overlay -->
+            <div class="absolute bottom-4 left-4 glass-card px-4 py-2.5 rounded-xl border border-neutral-700/80 shadow-lg text-xs pointer-events-none">
+              <p class="font-serif text-white font-medium">Villa Azul Caribe</p>
+              <p class="text-neutral-400 text-[11px]">Costambar Enclave · Puerto Plata, RD</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         11. ACCORDION FAQ (CHECK-IN, DEPOSIT, PETS, EVENTS, CANCELLATION)
+         =================================================================== -->
+    <section id="faq" class="py-24 max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center mb-16">
+        <p class="text-xs uppercase tracking-widest text-[#d4af37] font-semibold mb-2" data-i18n="faq_pre">Dudas Frecuentes</p>
+        <h2 class="font-serif text-3xl sm:text-4xl text-white font-normal" data-i18n="faq_title">Preguntas Frecuentes</h2>
+        <p class="text-sm text-neutral-400 mt-2" data-i18n="faq_subtitle">
+          Todo lo que necesitas saber antes de confirmar tu reserva en Villa Azul Caribe.
+        </p>
+      </div>
+
+      <!-- Accordion items container -->
+      <div class="space-y-4" id="faq-accordion">
+        <!-- Rendered via JavaScript from VILLA_CONFIG.faq -->
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- ===================================================================
+         13. FOOTER & POLICIES
+         =================================================================== -->
+    <footer class="bg-[#08080a] border-t border-neutral-800/80 pt-16 pb-24 text-neutral-400 text-xs">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+          
+          <!-- Col 1: Wordmark & Summary -->
+          <div class="md:col-span-1">
+            <a href="#hero" class="text-xl font-serif text-white flex items-center gap-2 mb-3">
+              <span class="w-7 h-7 rounded-full bg-gradient-to-tr from-[#d4af37] to-[#06b6d4] flex items-center justify-center text-black font-bold text-xs">V</span>
+              <span>Villa Azul <span class="gold-gradient-text italic">Caribe</span></span>
+            </a>
+            <p class="text-neutral-400 text-xs leading-relaxed">
+              Exclusiva residencia vacacional de lujo en Puerto Plata, República Dominicana. El estándar más elevado de privacidad caribeña.
+            </p>
+          </div>
+
+          <!-- Col 2: Navigation Links -->
+          <div>
+            <h4 class="text-white font-semibold uppercase tracking-wider text-[11px] mb-3">Navegación</h4>
+            <ul class="space-y-2">
+              <li><a href="#highlights" class="hover:text-white transition-colors">Servicios e Instalaciones</a></li>
+              <li><a href="#galeria" class="hover:text-white transition-colors">Galería Fotográfica</a></li>
+              <li><a href="#experiencias" class="hover:text-white transition-colors">Experiencias y Chef</a></li>
+              <li><a href="#booking-section" class="hover:text-white transition-colors">Cotización Directa</a></li>
+              <li><a href="#faq" class="hover:text-white transition-colors">Preguntas Frecuentes</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Direct Contact -->
+          <div>
+            <h4 class="text-white font-semibold uppercase tracking-wider text-[11px] mb-3">Contacto Directo</h4>
+            <ul class="space-y-2">
+              <li class="flex items-center gap-2">
+                <span class="text-[#25D366]">WhatsApp:</span>
+                <span class="font-mono text-white">+1 (809) 000-0000</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-neutral-300">Email:</span>
+                <span class="font-mono">reservas@villaazulcaribe.com</span>
+              </li>
+              <li class="text-neutral-400 leading-relaxed">
+                Costambar Luxury Enclave, Puerto Plata, República Dominicana
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 4: Trust & Policies -->
+          <div>
+            <h4 class="text-white font-semibold uppercase tracking-wider text-[11px] mb-3">Garantía Directa</h4>
+            <p class="text-neutral-400 text-xs leading-relaxed mb-3">
+              Sin comisiones ocultas ni tarifas abusivas. Reserva transparente con confirmación instantánea vía WhatsApp.
+            </p>
+            <div class="flex items-center gap-3 text-sm text-neutral-400">
+              <span class="text-xs bg-neutral-900 border border-neutral-800 px-2 py-1 rounded">Depósito 50%</span>
+              <span class="text-xs bg-neutral-900 border border-neutral-800 px-2 py-1 rounded">Cancelación 30 días</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="border-t border-neutral-800/80 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-neutral-500">
+          <p>© 2026 Villa Azul Caribe. Todos los derechos reservados.</p>
+          <div class="flex items-center gap-4">
+            <a href="#faq" class="hover:text-neutral-300">Términos y Condiciones</a>
+            <span>·</span>
+            <a href="#faq" class="hover:text-neutral-300">Política de Privacidad</a>
+            <span>·</span>
+            <a href="#faq" class="hover:text-neutral-300">Políticas de Cancelación</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+
+    <!-- ===================================================================
+         FLOATING WHATSAPP BUTTON (DYNAMIC CONCIERGE LINK)
+         =================================================================== -->
+    <div class="fixed bottom-6 right-6 z-40 flex items-center gap-3">
+      <!-- Tooltip prompt -->
+      <div id="wa-floating-tooltip" class="hidden sm:flex items-center bg-[#141418]/95 border border-neutral-700/80 text-white text-xs px-3.5 py-2 rounded-xl shadow-2xl backdrop-blur transition-all">
+        <span>¿Dudas? Consulta en vivo por WhatsApp</span>
+      </div>
+
+      <button 
+        id="floating-whatsapp-btn"
+        onclick="launchFloatingWhatsApp()"
+        class="wa-beacon w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-black flex items-center justify-center shadow-2xl transition-transform hover:scale-110 active:scale-95 cursor-pointer"
+        aria-label="Abrir WhatsApp para consultar o reservar"
+      >
+        <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"/>
+        </svg>
+      </button>
+    </div>
+
+
+
+
+    <!-- ===================================================================
+         JAVASCRIPT & CORE LOGIC
+         =================================================================== -->
+    <script>
+      /**
+       * CONFIGURACIÓN CENTRAL DE LA VILLA (Fácil de editar para cualquier propiedad)
+       */
+      const VILLA_CONFIG = {
+        name: "Villa Azul Caribe",
+        tagline: "El santuario privado del Atlántico",
+        location: "Puerto Plata, República Dominicana",
+        shortLocation: "Puerto Plata, RD",
+        whatsappNumber: "18090000000",
+        capacity: {
+          guests: 10,
+          bedrooms: 5,
+          bathrooms: 5,
+        },
+        pricing: {
+          basePerNight: 350, // Temporada regular (USD)
+          highSeasonPerNight: 450, // Temporada alta (USD - Diciembre a Abril)
+          cleaningFee: 120, // Tarifa única de preparación y limpieza
+          directDiscountPercent: 10, // Ahorro directo
+          currency: "USD"
+        },
+        amenities: [
+          { name: "Piscina Privada Infinity", icon: "pool" },
+          { name: "Chef Personal Disponible", icon: "chef" },
+          { name: "A 5 min de la Playa", icon: "beach" },
+          { name: "WiFi Starlink 300 Mbps", icon: "wifi" },
+          { name: "Aire Acondicionado Central", icon: "ac" },
+          { name: "Cocina de Diseñador Equipada", icon: "kitchen" }
+        ],
+        experiences: [
+          {
+            id: "chef",
+            title: "Chef Gourmet Privado",
+            titleEn: "Private Gourmet Chef",
+            desc: "Menús de 3 tiempos con mariscos frescos locales y cocina criolla o internacional.",
+            descEn: "3-course gourmet menus with fresh seafood and Caribbean or international cuisine.",
+            price: 150,
+            priceLabel: "+$150 USD / día",
+            image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80"
+          },
+          {
+            id: "transport",
+            title: "Transporte VIP Aeropuerto (POP/STI)",
+            titleEn: "VIP Airport Transfer (POP/STI)",
+            desc: "Recepción en SUV de lujo con chófer bilingüe y bebidas frías de bienvenida.",
+            descEn: "Airport reception in luxury SUV with bilingual chauffeur and welcome drinks.",
+            price: 90,
+            priceLabel: "+$90 USD / trayecto",
+            image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80"
+          },
+          {
+            id: "catamaran",
+            title: "Tour Privado en Catamarán",
+            titleEn: "Private Catamaran Charter",
+            desc: "Navegación por la Costa Dorada, snorkel en arrecifes de coral y barra libre.",
+            descEn: "Gold Coast sailing, coral reef snorkeling, and open bar onboard.",
+            price: 480,
+            priceLabel: "+$480 USD / grupo",
+            image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80"
+          },
+          {
+            id: "events",
+            title: "Decoración & Velada Especial",
+            titleEn: "Special Evening & Event Decor",
+            desc: "Iluminación de velas, flores tropicales y montaje romántico o de cumpleaños junto a la piscina.",
+            descEn: "Candlelight ambience, tropical florals, and celebration setup by the pool.",
+            price: 250,
+            priceLabel: "+$250 USD / montaje",
+            image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80"
+          }
+        ],
+        gallery: [
+          { category: "piscina", title: "Piscina Infinity al Atardecer", titleEn: "Infinity Pool at Dusk", url: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=85" },
+          { category: "piscina", title: "Solárium y Área Lounge", titleEn: "Sun Deck & Lounge Area", url: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=85" },
+          { category: "habitaciones", title: "Master Suite con Cama King y Vista al Mar", titleEn: "Master King Suite with Ocean View", url: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=85" },
+          { category: "habitaciones", title: "Suite Junior con Terraza Privada", titleEn: "Junior Suite with Private Terrace", url: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=85" },
+          { category: "cocina", title: "Cocina Gourmet de Diseñador", titleEn: "Designer Gourmet Kitchen", url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85" },
+          { category: "cocina", title: "Comedor Interior para 10 Comensales", titleEn: "Indoor Dining for 10 Guests", url: "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=85" },
+          { category: "exteriores", title: "Arquitectura Iluminada y Jardines", titleEn: "Illuminated Facade & Gardens", url: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=85" },
+          { category: "exteriores", title: "Terraza Exterior con Fogata", titleEn: "Outdoor Terrace with Fire Pit", url: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=85" }
+        ],
+        reviews: [
+          {
+            name: "Marcus & Elena Vance",
+            country: "Miami, Estados Unidos",
+            date: "Octubre 2024",
+            rating: 5,
+            comment: "Villa Azul Caribe superó todas nuestras expectativas. El chef preparó langosta fresca inolvidable y la piscina al atardecer no tiene comparación. Reservar directo por WhatsApp fue súper rápido y seguro."
+          },
+          {
+            name: "Sophie Laurent",
+            country: "Montréal, Canadá",
+            date: "Septiembre 2024",
+            rating: 5,
+            comment: "Viajamos 8 personas para mi cumpleaños número 40. El espacio es inmenso, impecable y con total privacidad. Estar a 5 minutos de la playa fue perfecto para pasear cada mañana."
+          },
+          {
+            name: "Guillermo Méndez",
+            country: "Madrid, España",
+            date: "Agosto 2024",
+            rating: 5,
+            comment: "Excelente servicio y atención de primera clase desde que aterrizamos. La conexión Starlink funcionó perfecto para teletrabajo y la brisa caribeña en la terraza es un sueño hecho realidad."
+          }
+        ],
+        faq: [
+          {
+            q: "¿Cuáles son los horarios de Check-in y Check-out?",
+            qEn: "What are the Check-in and Check-out times?",
+            a: "El check-in es a partir de las 3:00 PM y el check-out hasta las 11:00 AM. Contamos con flexibilidad horaria previa solicitud y sujeta a disponibilidad sin costo adicional.",
+            aEn: "Check-in is from 3:00 PM and check-out is until 11:00 AM. Early check-in or late check-out is complimentary upon request subject to availability."
+          },
+          {
+            q: "¿Cómo funciona el depósito de garantía y los métodos de pago?",
+            qEn: "How does the security deposit and payment work?",
+            a: "Para bloquear tus fechas solicitamos un 50% de anticipo y el 50% restante 7 días antes de la llegada. Solicitamos un depósito de seguridad reembolsable de $300 USD devuelto íntegramente tras la inspección de salida. Aceptamos transferencias bancarias, tarjetas y transferencias seguras.",
+            aEn: "A 50% deposit secures your dates, with the remainder due 7 days before arrival. A refundable $300 USD security deposit is returned after departure inspection."
+          },
+          {
+            q: "¿Se permiten mascotas o niños pequeños?",
+            qEn: "Are pets or young children allowed?",
+            a: "La villa está completamente acondicionada para familias con niños. Las mascotas educadas son bienvenidas previa consulta previa (puede aplicar un suplemento único de limpieza de $50 USD).",
+            aEn: "The villa is fully family-friendly. Well-behaved pets are welcome upon prior request (a $50 USD pet cleaning fee may apply)."
+          },
+          {
+            q: "¿Se pueden organizar eventos o cenas privadas?",
+            qEn: "Can private events or dinners be held?",
+            a: "Permitimos eventos íntimos de hasta 25 personas (cenas románticas, aniversarios, cumpleaños familiares) coordinados con anticipación. No se permiten fiestas multitudinarias con sonido exterior después de las 11:00 PM.",
+            aEn: "Intimate events up to 25 guests (birthdays, anniversary dinners) are welcome with prior notice. No loud outdoor parties after 11:00 PM."
+          },
+          {
+            q: "¿Cuál es la política de cancelación para reservas directas?",
+            qEn: "What is the cancellation policy for direct bookings?",
+            a: "Cancelación 100% reembolsable hasta 30 días antes del check-in. Para cancelaciones entre 15 y 29 días, ofrecemos reprogramar tus fechas sin penalización dentro de los siguientes 12 meses.",
+            aEn: "100% refundable cancellation up to 30 days before check-in. Between 15 and 29 days, free rescheduling is available within the next 12 months."
+          }
+        ]
+      };
+
+      /**
+       * ESTADO EN MEMORIA (Sin dependencias externas)
+       */
+      let currentLanguage = 'es';
+      let selectedExperiences = new Set();
+      let currentLightboxIndex = 0;
+      let activeGalleryFilter = 'todas';
+      let introHasRun = false;
+
+      /**
+       * DICCIONARIO BILINGÜE
+       */
+      const I18N = {
+        es: {
+          nav_amenities: "Servicios",
+          nav_gallery: "Galería",
+          nav_experiences: "Experiencias",
+          nav_calendar: "Disponibilidad",
+          nav_location: "Ubicación",
+          nav_faq: "Preguntas",
+          btn_book_now: "Reservar Ahora",
+          hero_cta_check: "Ver Disponibilidad y Cotizar",
+          hero_cta_wa: "Consultar por WhatsApp",
+          stat_guests: "Huéspedes máx.",
+          stat_rooms: "Suites con baño",
+          stat_rating: "68 reseñas verificadas",
+          stat_discount: "Ahorro reserva directa",
+          label_checkin: "Llegada (Check-in)",
+          label_checkout: "Salida (Check-out)",
+          label_guests: "Huéspedes",
+          quote_total_label: "Cotización Directa:",
+          btn_book_wa: "Reservar por WhatsApp",
+          highlights_pre: "Exclusividad & Confort",
+          highlights_title: "Cada detalle concebido para una estancia inolvidable",
+          highlights_subtitle: "Disfruta de la libertad de una residencia privada con los estándares de un resort boutique 5 estrellas en Puerto Plata.",
+          gallery_pre: "Fotografía & Espacios",
+          gallery_title: "Galería de la Residencia",
+          tab_all: "Todas",
+          tab_pool: "Piscina & Terraza",
+          tab_rooms: "Habitaciones",
+          tab_kitchen: "Cocina & Comedor",
+          tab_outdoor: "Exteriores",
+          exp_pre: "Servicios Adicionales Personalizados",
+          exp_title: "Eleva tu estancia con experiencias a medida",
+          exp_subtitle: "Servicios exclusivos de conserjería disponibles bajo petición para complementar tu estancia.",
+          offer_urgency: "Alta demanda: Solo quedan 2 fechas libres en diciembre",
+          offer_title: "Reserva directa con nosotros y ahorra el 10% sin comisiones",
+          offer_desc: "Al reservar directamente por WhatsApp evitas los cargos de servicio del 15% al 20% de plataformas intermediarias.",
+          btn_claim_offer: "Reclamar 10% por WhatsApp",
+          reviews_pre: "Experiencias Reales",
+          reviews_title: "Lo que dicen nuestros distinguidos huéspedes",
+          loc_pre: "Costa Norte Dominicana",
+          loc_title: "Enclave Privado en Puerto Plata",
+          loc_desc: "Villa Azul Caribe goza de una ubicación inmejorable: privacidad absoluta en una comunidad residencial vigilada con seguridad 24 horas y a 5 minutos a pie de la playa.",
+          faq_pre: "Dudas Frecuentes",
+          faq_title: "Preguntas Frecuentes",
+          faq_subtitle: "Todo lo que necesitas saber antes de confirmar tu reserva en Villa Azul Caribe."
+        },
+        en: {
+          nav_amenities: "Amenities",
+          nav_gallery: "Gallery",
+          nav_experiences: "Experiences",
+          nav_location: "Location",
+          nav_faq: "FAQ",
+          btn_book_now: "Book Direct",
+          hero_cta_check: "Check Availability & Quote",
+          hero_cta_wa: "Chat on WhatsApp",
+          stat_guests: "Max Guests",
+          stat_rooms: "En-suite Bedrooms",
+          stat_rating: "68 verified reviews",
+          stat_discount: "Direct booking saving",
+          label_checkin: "Check-in Date",
+          label_checkout: "Check-out Date",
+          label_guests: "Guests",
+          quote_total_label: "Direct Quote:",
+          btn_book_wa: "Book via WhatsApp",
+          highlights_pre: "Exclusivity & Comfort",
+          highlights_title: "Every detail designed for an unforgettable Caribbean escape",
+          highlights_subtitle: "Enjoy the total seclusion of a private estate with 5-star boutique resort concierge standards in Puerto Plata.",
+          gallery_pre: "Photography & Spaces",
+          gallery_title: "Residence Gallery",
+          tab_all: "All",
+          tab_pool: "Pool & Deck",
+          tab_rooms: "Bedrooms",
+          tab_kitchen: "Kitchen & Dining",
+          tab_outdoor: "Outdoors",
+          exp_pre: "Custom Concierge Services",
+          exp_title: "Elevate your stay with tailored experiences",
+          exp_subtitle: "Exclusive concierge services available upon request to complement your stay.",
+          offer_urgency: "High Demand: Only 2 weekend dates left in December",
+          offer_title: "Book direct with us & save 10% with zero platform commissions",
+          offer_desc: "By booking directly on WhatsApp you bypass the 15% to 20% platform fees charged by OTAs.",
+          btn_claim_offer: "Claim 10% Discount on WhatsApp",
+          reviews_pre: "Guest Stories",
+          reviews_title: "What our distinguished guests say",
+          loc_pre: "Dominican North Coast",
+          loc_title: "Private Enclave in Puerto Plata",
+          loc_desc: "Villa Azul Caribe enjoys an unbeatable setting: 24/7 gated security, refreshing coastal breezes, and a 5-minute stroll to golden beaches.",
+          faq_pre: "Help & Answers",
+          faq_title: "Frequently Asked Questions",
+          faq_subtitle: "Everything you need to know before securing your stay at Villa Azul Caribe.",
+          btn_add_exp: "Add to my quote",
+          btn_remove_exp: "✓ Added (Remove)"
+        }
+      };
+
+      /**
+       * GESTOR DE IDIOMA
+       */
+      function setLanguage(lang) {
+        currentLanguage = lang;
+        const esBtn = document.getElementById('lang-es-btn');
+        const enBtn = document.getElementById('lang-en-btn');
+
+        if (lang === 'es') {
+          esBtn.className = "px-2.5 py-1 rounded-md transition-colors bg-[#d4af37] text-black font-semibold cursor-pointer";
+          enBtn.className = "px-2.5 py-1 rounded-md transition-colors text-neutral-400 hover:text-white cursor-pointer";
+        } else {
+          enBtn.className = "px-2.5 py-1 rounded-md transition-colors bg-[#d4af37] text-black font-semibold cursor-pointer";
+          esBtn.className = "px-2.5 py-1 rounded-md transition-colors text-neutral-400 hover:text-white cursor-pointer";
+        }
+
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (I18N[lang] && I18N[lang][key]) {
+            el.textContent = I18N[lang][key];
+          }
+        });
+
+        renderExperiences();
+        renderFAQ();
+        recalculateQuote();
+      }
+
+      function closeMobileMenu() {
+        const menu = document.getElementById('mobile-menu');
+        if (menu) menu.classList.add('hidden');
+      }
+
+      /**
+       * LINEA DE TIEMPO INTRO DE 5 SEGUNDOS EXACTOS (FIGMA COLLABORATIVE CURSORS)
+       */
+      function initIntroAnimation() {
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (prefersReducedMotion || window.__villaIntroPlayed) {
+          finishIntro();
+          return;
+        }
+
+        document.body.style.overflow = 'hidden';
+
+        const overlay = document.getElementById('intro-overlay');
+        const cDesign = document.getElementById('cursor-design');
+        const cPhotos = document.getElementById('cursor-photos');
+        const cTexts = document.getElementById('cursor-texts');
+        const cBooking = document.getElementById('cursor-booking');
+        const header = document.getElementById('site-header');
+        const heroBg = document.getElementById('hero-media-wrapper');
+        const heroTitle = document.getElementById('hero-title');
+        const heroSubtitle = document.getElementById('hero-subtitle');
+        const heroKicker = document.getElementById('hero-kicker');
+        const heroCtas = document.getElementById('hero-ctas');
+        const heroTrust = document.getElementById('hero-trust-bar');
+        const bookingBar = document.getElementById('booking-section');
+        const loaderBadge = document.getElementById('intro-loader-badge');
+
+        gsap.set(header, { y: -80, opacity: 0 });
+        gsap.set(heroBg, { opacity: 0, scale: 1.15 });
+        gsap.set([heroKicker, heroTitle, heroSubtitle, heroCtas, heroTrust], { opacity: 0, y: 35 });
+        gsap.set(bookingBar, { opacity: 0, y: 50, scale: 0.95 });
+        gsap.set('.highlight-card', { opacity: 0, y: 30 });
+
+        const W = window.innerWidth;
+        const H = window.innerHeight;
+
+        const tl = gsap.timeline({
+          onComplete: () => {
+            finishIntro();
+          }
+        });
+
+        // 0.0s a 0.5s: Cursores aparecen desde los bordes con fade-in y escala elástica
+        tl.fromTo(cDesign, { x: -60, y: -60, opacity: 0, scale: 0.6 }, { x: W * 0.1, y: 40, opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }, 0)
+          .fromTo(cPhotos, { x: W + 60, y: H * 0.2, opacity: 0, scale: 0.6 }, { x: W * 0.75, y: H * 0.25, opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }, 0.05)
+          .fromTo(cTexts, { x: -60, y: H * 0.45, opacity: 0, scale: 0.6 }, { x: W * 0.25, y: H * 0.4, opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }, 0.1)
+          .fromTo(cBooking, { x: W * 0.5, y: H + 60, opacity: 0, scale: 0.6 }, { x: W * 0.5, y: H * 0.75, opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }, 0.15)
+          .to(loaderBadge, { opacity: 0, duration: 0.4 }, 0.3);
+
+        // 0.5s a 1.3s: Cursor "Diseño" se mueve al logo y hace clic -> Despliega barra de navegación
+        tl.to(cDesign, { x: Math.min(W * 0.18, 140), y: 36, duration: 0.6, ease: "power2.inOut" }, 0.5)
+          .to(cDesign, { scale: 0.85, duration: 0.08, yoyo: true, repeat: 1 }, 1.05)
+          .fromTo('#ripple-design', { scale: 0.2, opacity: 1 }, { scale: 2.2, opacity: 0, duration: 0.4, ease: "power1.out" }, 1.05)
+          .to(header, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(1.2)" }, 1.1);
+
+        // 1.2s a 2.2s: Cursor "Fotos" arrastra y revela el hero background con zoom suave
+        tl.to(cPhotos, { x: W * 0.52, y: H * 0.32, duration: 0.7, ease: "power3.inOut" }, 1.2)
+          .to(cPhotos, { scale: 0.85, duration: 0.08, yoyo: true, repeat: 1 }, 1.85)
+          .fromTo('#ripple-photos', { scale: 0.2, opacity: 1 }, { scale: 2.2, opacity: 0, duration: 0.4, ease: "power1.out" }, 1.85)
+          .to(heroBg, { opacity: 1, scale: 1.0, duration: 0.8, ease: "power2.out" }, 1.85);
+
+        // 2.0s a 3.2s: Cursor "Textos" llega al titular principal y hace clic -> Revela textos
+        tl.to(cTexts, { x: W * 0.42, y: H * 0.38, duration: 0.65, ease: "power2.inOut" }, 2.0)
+          .to(cTexts, { scale: 0.85, duration: 0.08, yoyo: true, repeat: 1 }, 2.6)
+          .fromTo('#ripple-texts', { scale: 0.2, opacity: 1 }, { scale: 2.2, opacity: 0, duration: 0.4, ease: "power1.out" }, 2.6)
+          .to(heroKicker, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }, 2.65)
+          .to(heroTitle, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 2.7)
+          .to(heroSubtitle, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, 2.85)
+          .to([heroCtas, heroTrust], { opacity: 1, y: 0, stagger: 0.1, duration: 0.4, ease: "power2.out" }, 2.95);
+
+        // 2.8s a 4.0s: Cursor "Reservas" vuela a la barra de reservas y activa highlights
+        tl.to(cBooking, { x: W * 0.5, y: Math.min(H * 0.68, H - 180), duration: 0.6, ease: "power2.inOut" }, 2.8)
+          .to(cBooking, { scale: 0.85, duration: 0.08, yoyo: true, repeat: 1 }, 3.35)
+          .fromTo('#ripple-booking', { scale: 0.2, opacity: 1 }, { scale: 2.2, opacity: 0, duration: 0.4, ease: "power1.out" }, 3.35)
+          .to(bookingBar, { opacity: 1, y: 0, scale: 1, duration: 0.5, ease: "back.out(1.1)" }, 3.4)
+          .to('.highlight-card', { opacity: 1, y: 0, stagger: 0.08, duration: 0.5, ease: "power2.out" }, 3.55);
+
+        // 4.0s a 5.0s: Los cursores se dispersan hacia los bordes y se desvanecen
+        tl.to(cDesign, { x: -80, y: -40, opacity: 0, scale: 0.7, duration: 0.9, ease: "power2.in" }, 4.0)
+          .to(cPhotos, { x: W + 80, y: H * 0.1, opacity: 0, scale: 0.7, duration: 0.9, ease: "power2.in" }, 4.05)
+          .to(cTexts, { x: -80, y: H * 0.6, opacity: 0, scale: 0.7, duration: 0.9, ease: "power2.in" }, 4.1)
+          .to(cBooking, { x: W + 60, y: H + 60, opacity: 0, scale: 0.7, duration: 0.9, ease: "power2.in" }, 4.15)
+          .to(overlay, { opacity: 0, duration: 0.5, ease: "power1.out" }, 4.5);
+
+        const skipBtn = document.getElementById('skip-intro-btn');
+        if (skipBtn) {
+          skipBtn.onclick = () => {
+            tl.progress(1);
+            finishIntro();
+          };
+        }
+
+        window.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && !introHasRun) {
+            tl.progress(1);
+            finishIntro();
+          }
+        }, { once: true });
+      }
+
+      function finishIntro() {
+        introHasRun = true;
+        window.__villaIntroPlayed = true;
+        document.body.style.overflow = 'auto';
+
+        const overlay = document.getElementById('intro-overlay');
+        if (overlay) {
+          overlay.style.display = 'none';
+        }
+
+        const header = document.getElementById('site-header');
+        const heroBg = document.getElementById('hero-media-wrapper');
+        const bookingBar = document.getElementById('booking-section');
+        if (header) { header.style.opacity = '1'; header.style.transform = 'translateY(0)'; }
+        if (heroBg) { heroBg.style.opacity = '1'; heroBg.style.transform = 'scale(1)'; }
+        if (bookingBar) { bookingBar.style.opacity = '1'; bookingBar.style.transform = 'translateY(0) scale(1)'; }
+        document.querySelectorAll('#hero-kicker, #hero-title, #hero-subtitle, #hero-ctas, #hero-trust-bar, .highlight-card').forEach(el => {
+          el.style.opacity = '1';
+          el.style.transform = 'none';
+        });
+      }
+
+      /**
+       * MOTOR DE COTIZACIÓN EN VIVO (CALCULADORA DE RESERVA)
+       */
+      function initQuoteCalculator() {
+        const checkinInput = document.getElementById('checkin-date');
+        const checkoutInput = document.getElementById('checkout-date');
+        const guestsSelect = document.getElementById('guests-count');
+
+        const today = new Date();
+        const tomorrow = new Date(today);
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        const checkOutDef = new Date(tomorrow);
+        checkOutDef.setDate(checkOutDef.getDate() + 4);
+
+        const formatDate = (d) => d.toISOString().split('T')[0];
+        
+        checkinInput.value = formatDate(tomorrow);
+        checkinInput.min = formatDate(tomorrow);
+        checkoutInput.value = formatDate(checkOutDef);
+        checkoutInput.min = formatDate(tomorrow);
+
+        checkinInput.addEventListener('change', () => {
+          const inDate = new Date(checkinInput.value);
+          const minOut = new Date(inDate);
+          minOut.setDate(minOut.getDate() + 2);
+          if (new Date(checkoutInput.value) <= inDate) {
+            checkoutInput.value = formatDate(minOut);
+          }
+          checkoutInput.min = formatDate(minOut);
+          recalculateQuote();
+        });
+
+        checkoutInput.addEventListener('change', recalculateQuote);
+        guestsSelect.addEventListener('change', recalculateQuote);
+
+        recalculateQuote();
+      }
+
+      function calculateNightsAndCost() {
+        const checkinVal = document.getElementById('checkin-date').value;
+        const checkoutVal = document.getElementById('checkout-date').value;
+        const guestsVal = parseInt(document.getElementById('guests-count').value, 10);
+
+        if (!checkinVal || !checkoutVal) return null;
+
+        const start = new Date(checkinVal + "T12:00:00");
+        const end = new Date(checkoutVal + "T12:00:00");
+        const diffTime = end - start;
+        let nights = Math.round(diffTime / (1000 * 60 * 60 * 24));
+        if (nights < 1) nights = 1;
+
+        let totalBaseBeforeDiscount = 0;
+        let highSeasonNightsCount = 0;
+        let regularSeasonNightsCount = 0;
+
+        let cur = new Date(start);
+        for (let i = 0; i < nights; i++) {
+          const m = cur.getMonth();
+          const isHighSeason = (m === 11 || m === 0 || m === 1 || m === 2 || m === 3);
+          if (isHighSeason) {
+            totalBaseBeforeDiscount += VILLA_CONFIG.pricing.highSeasonPerNight;
+            highSeasonNightsCount++;
+          } else {
+            totalBaseBeforeDiscount += VILLA_CONFIG.pricing.basePerNight;
+            regularSeasonNightsCount++;
+          }
+          cur.setDate(cur.getDate() + 1);
+        }
+
+        const directDiscountAmount = Math.round(totalBaseBeforeDiscount * (VILLA_CONFIG.pricing.directDiscountPercent / 100));
+        const baseAfterDiscount = totalBaseBeforeDiscount - directDiscountAmount;
+        const cleaningFee = VILLA_CONFIG.pricing.cleaningFee;
+
+        let experiencesCost = 0;
+        const addedExpNames = [];
+        selectedExperiences.forEach(expId => {
+          const expObj = VILLA_CONFIG.experiences.find(e => e.id === expId);
+          if (expObj) {
+            experiencesCost += expObj.price;
+            addedExpNames.push(currentLanguage === 'en' ? expObj.titleEn : expObj.title);
+          }
+        });
+
+        const grandTotal = baseAfterDiscount + cleaningFee + experiencesCost;
+
+        return {
+          nights,
+          checkinVal,
+          checkoutVal,
+          guestsVal,
+          highSeasonNightsCount,
+          regularSeasonNightsCount,
+          totalBaseBeforeDiscount,
+          directDiscountAmount,
+          cleaningFee,
+          experiencesCost,
+          addedExpNames,
+          grandTotal
+        };
+      }
+
+      function recalculateQuote() {
+        const quote = calculateNightsAndCost();
+        if (!quote) return;
+
+        const totalDisplay = document.getElementById('quote-total-display');
+        const nightsPill = document.getElementById('quote-nights-pill');
+        const detailSubtext = document.getElementById('quote-detail-subtext');
+
+        if (totalDisplay) {
+          totalDisplay.textContent = `$${quote.grandTotal.toLocaleString()} USD`;
+        }
+        if (nightsPill) {
+          nightsPill.textContent = `${quote.nights} ${currentLanguage === 'en' ? (quote.nights === 1 ? 'night' : 'nights') : (quote.nights === 1 ? 'noche' : 'noches')}`;
+        }
+        if (detailSubtext) {
+          let extraExpText = quote.experiencesCost > 0 ? ` + $${quote.experiencesCost} extras` : '';
+          detailSubtext.textContent = currentLanguage === 'en'
+            ? `Includes $120 cleaning fee, 10% direct saving${extraExpText}.`
+            : `Incluye limpieza ($120), 10% de ahorro directo${extraExpText}.`;
+        }
+      }
+
+      function openWhatsAppLink(msg) {
+        const waUrl = `https://wa.me/${VILLA_CONFIG.whatsappNumber}?text=${encodeURIComponent(msg)}`;
+        const a = document.createElement('a');
+        a.href = waUrl;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+
+      function launchBookingWhatsApp() {
+        const quote = calculateNightsAndCost();
+        if (!quote) return;
+
+        const formatDatePretty = (isoStr) => {
+          const [y, m, d] = isoStr.split('-');
+          return `${d}/${m}/${y}`;
+        };
+
+        const extraServicesStr = quote.addedExpNames.length > 0 
+          ? `\n✨ *Servicios adicionales:* ${quote.addedExpNames.join(', ')} (+$${quote.experiencesCost} USD)`
+          : '';
+
+        const msg = currentLanguage === 'en'
+          ? `Hello *${VILLA_CONFIG.name}*! 🌴\nI want to book directly without platform commissions:\n\n📅 *Check-in:* ${formatDatePretty(quote.checkinVal)}\n📅 *Check-out:* ${formatDatePretty(quote.checkoutVal)} (${quote.nights} nights)\n👥 *Guests:* ${quote.guestsVal} people${extraServicesStr}\n💰 *Live Estimated Total (10% Direct OFF included):* $${quote.grandTotal.toLocaleString()} USD\n\nCould you please confirm availability for these dates? Thank you!`
+          : `¡Hola *${VILLA_CONFIG.name}*! 🌴\nQuiero reservar directamente sin comisiones de plataformas:\n\n📅 *Llegada:* ${formatDatePretty(quote.checkinVal)}\n📅 *Salida:* ${formatDatePretty(quote.checkoutVal)} (${quote.nights} noches)\n👥 *Huéspedes:* ${quote.guestsVal} personas${extraServicesStr}\n💰 *Total estimado con 10% de ahorro directo:* $${quote.grandTotal.toLocaleString()} USD\n\n¿Tienen disponibilidad confirmada para estas fechas? ¡Muchas gracias!`;
+
+        openWhatsAppLink(msg);
+      }
+
+      function launchDirectDiscountWhatsApp() {
+        const quote = calculateNightsAndCost();
+        const baseMsg = currentLanguage === 'en'
+          ? `Hello! I want to claim the *10% Direct Booking Discount* for Villa Azul Caribe in Puerto Plata for ${quote ? quote.nights + ' nights' : 'my upcoming stay'}. Please send me available dates and quotes.`
+          : `¡Hola! Quiero reclamar la *Oferta de 10% de Descuento por Reserva Directa* en Villa Azul Caribe en Puerto Plata para ${quote ? quote.nights + ' noches' : 'mi próxima estancia'}. ¿Podrían brindarme las fechas disponibles?`;
+        
+        openWhatsAppLink(baseMsg);
+      }
+
+      function launchFloatingWhatsApp() {
+        launchBookingWhatsApp();
+      }
+
+      /**
+       * RENDERIZADO DE EXPERIENCIAS EXCLUSIVAS (DISPONIBLES BAJO PETICIÓN)
+       */
+      function renderExperiences() {
+        const grid = document.getElementById('experiences-grid');
+        if (!grid) return;
+
+        grid.innerHTML = VILLA_CONFIG.experiences.map(exp => {
+          const title = currentLanguage === 'en' ? exp.titleEn : exp.title;
+          const desc = currentLanguage === 'en' ? exp.descEn : exp.desc;
+          const availLabel = currentLanguage === 'en' ? 'Available upon request' : 'Disponible bajo petición';
+
+          return `
+            <div class="glass-card rounded-2xl overflow-hidden border border-neutral-800 hover:border-[#d4af37]/60 transition-all flex flex-col justify-between group">
+              <div class="relative h-44 overflow-hidden">
+                <img src="${exp.image}" alt="${title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                <div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/40 to-transparent"></div>
+                <span class="absolute top-3 right-3 text-xs font-mono font-semibold px-2.5 py-1 rounded-md bg-black/70 backdrop-blur text-[#d4af37] border border-neutral-700/60">
+                  ${exp.priceLabel}
+                </span>
+              </div>
+              <div class="p-5 flex-1 flex flex-col justify-between">
+                <div>
+                  <h3 class="font-serif text-base text-white font-medium mb-1.5">${title}</h3>
+                  <p class="text-xs text-neutral-400 leading-relaxed">${desc}</p>
+                </div>
+                <div class="mt-4 pt-3 border-t border-neutral-800/80 flex items-center justify-between text-xs text-neutral-400">
+                  <span class="text-neutral-500 text-[11px]">${currentLanguage === 'en' ? 'Concierge service' : 'Servicio de concierge'}</span>
+                  <span class="text-[#d4af37] font-medium text-[11px] flex items-center gap-1">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    ${availLabel}
+                  </span>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      /**
+       * RENDERIZADO DE GALERÍA Y LIGHTBOX
+       */
+      function renderGallery(filter = 'todas') {
+        activeGalleryFilter = filter;
+        const grid = document.getElementById('gallery-grid');
+        if (!grid) return;
+
+        const filtered = filter === 'todas' 
+          ? VILLA_CONFIG.gallery 
+          : VILLA_CONFIG.gallery.filter(item => item.category === filter);
+
+        grid.innerHTML = filtered.map((item, idx) => {
+          const globalIdx = VILLA_CONFIG.gallery.indexOf(item);
+          const caption = currentLanguage === 'en' ? item.titleEn : item.title;
+          return `
+            <div 
+              onclick="openLightbox(${globalIdx})" 
+              class="relative h-64 rounded-xl overflow-hidden group cursor-pointer border border-neutral-800/80 shadow-md"
+            >
+              <img 
+                src="${item.url}" 
+                alt="${caption}" 
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+              <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs text-white">
+                <span class="font-serif text-sm font-normal drop-shadow-md truncate">${caption}</span>
+                <span class="p-1.5 rounded-full bg-black/60 border border-white/20 text-[#d4af37] group-hover:scale-110 transition-transform">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"></path></svg>
+                </span>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      function filterGallery(cat) {
+        document.querySelectorAll('.gallery-tab-btn').forEach(btn => {
+          if (btn.getAttribute('data-tab') === cat) {
+            btn.className = "gallery-tab-btn px-3.5 py-1.5 rounded-lg bg-[#d4af37] text-black font-semibold transition-all cursor-pointer";
+          } else {
+            btn.className = "gallery-tab-btn px-3.5 py-1.5 rounded-lg text-neutral-400 hover:text-white transition-all cursor-pointer";
+          }
+        });
+        renderGallery(cat);
+      }
+
+      function openLightbox(index) {
+        currentLightboxIndex = index;
+        const modal = document.getElementById('lightbox-modal');
+        const img = document.getElementById('lightbox-img');
+        const caption = document.getElementById('lightbox-caption');
+        const counter = document.getElementById('lightbox-counter');
+
+        const item = VILLA_CONFIG.gallery[index];
+        img.src = item.url;
+        caption.textContent = currentLanguage === 'en' ? item.titleEn : item.title;
+        counter.textContent = `${index + 1} / ${VILLA_CONFIG.gallery.length}`;
+
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeLightbox() {
+        const modal = document.getElementById('lightbox-modal');
+        modal.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+      }
+
+      function handleLightboxClick(e) {
+        if (e.target.id === 'lightbox-modal') {
+          closeLightbox();
+        }
+      }
+
+      function prevLightboxImage(e) {
+        if (e) e.stopPropagation();
+        currentLightboxIndex = (currentLightboxIndex - 1 + VILLA_CONFIG.gallery.length) % VILLA_CONFIG.gallery.length;
+        openLightbox(currentLightboxIndex);
+      }
+
+      function nextLightboxImage(e) {
+        if (e) e.stopPropagation();
+        currentLightboxIndex = (currentLightboxIndex + 1) % VILLA_CONFIG.gallery.length;
+        openLightbox(currentLightboxIndex);
+      }
+
+      window.addEventListener('keydown', (e) => {
+        const modal = document.getElementById('lightbox-modal');
+        if (modal && !modal.classList.contains('hidden')) {
+          if (e.key === 'Escape') closeLightbox();
+          if (e.key === 'ArrowLeft') prevLightboxImage();
+          if (e.key === 'ArrowRight') nextLightboxImage();
+        }
+      });
+
+
+
+      /**
+       * RENDERIZADO DE RESEÑAS
+       */
+      function renderReviews() {
+        const grid = document.getElementById('reviews-grid');
+        if (!grid) return;
+
+        grid.innerHTML = VILLA_CONFIG.reviews.map(r => `
+          <div class="glass-card p-7 rounded-2xl border border-neutral-800 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-1 text-[#d4af37] text-sm mb-4">
+                ${'★'.repeat(r.rating)}
+              </div>
+              <p class="text-xs sm:text-sm text-neutral-300 italic leading-relaxed mb-6 font-serif">
+                "${r.comment}"
+              </p>
+            </div>
+            <div class="border-t border-neutral-800/80 pt-4 flex items-center justify-between">
+              <div>
+                <p class="text-xs font-semibold text-white">${r.name}</p>
+                <p class="text-[11px] text-neutral-500">${r.country}</p>
+              </div>
+              <span class="text-[10px] text-neutral-500 font-mono">${r.date}</span>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      /**
+       * RENDERIZADO DE FAQ CON ACORDEÓN INTERACTIVO
+       */
+      function renderFAQ() {
+        const container = document.getElementById('faq-accordion');
+        if (!container) return;
+
+        container.innerHTML = VILLA_CONFIG.faq.map((item, idx) => {
+          const q = currentLanguage === 'en' ? item.qEn : item.q;
+          const a = currentLanguage === 'en' ? item.aEn : item.a;
+
+          return `
+            <div class="border border-neutral-800 rounded-xl overflow-hidden bg-neutral-900/60 transition-colors">
+              <button 
+                onclick="toggleFaq(${idx})" 
+                class="w-full p-5 text-left text-sm font-medium text-white flex items-center justify-between gap-4 hover:text-[#d4af37] transition-colors cursor-pointer"
+                id="faq-btn-${idx}"
+              >
+                <span>${q}</span>
+                <span id="faq-icon-${idx}" class="text-neutral-400 transition-transform duration-300">▼</span>
+              </button>
+              <div id="faq-content-${idx}" class="hidden px-5 pb-5 text-xs text-neutral-400 leading-relaxed border-t border-neutral-800/60 pt-3">
+                ${a}
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      function toggleFaq(idx) {
+        const content = document.getElementById(`faq-content-${idx}`);
+        const icon = document.getElementById(`faq-icon-${idx}`);
+        if (!content || !icon) return;
+
+        const isHidden = content.classList.contains('hidden');
+        if (isHidden) {
+          content.classList.remove('hidden');
+          icon.style.transform = 'rotate(180deg)';
+          icon.classList.add('text-[#d4af37]');
+        } else {
+          content.classList.add('hidden');
+          icon.style.transform = 'rotate(0deg)';
+          icon.classList.remove('text-[#d4af37]');
+        }
+      }
+
+
+
+      /**
+       * MENU MOVIL
+       */
+      const mobileBtn = document.getElementById('mobile-menu-btn');
+      if (mobileBtn) {
+        mobileBtn.addEventListener('click', () => {
+          const menu = document.getElementById('mobile-menu');
+          menu.classList.toggle('hidden');
+        });
+      }
+
+      /**
+       * INICIALIZADOR AL CARGAR EL DOM
+       */
+      window.addEventListener('DOMContentLoaded', () => {
+        initIntroAnimation();
+        initQuoteCalculator();
+        renderExperiences();
+        renderGallery('todas');
+        renderReviews();
+        renderFAQ();
+      });
+    </script>
+
+  </body>
+</html>
